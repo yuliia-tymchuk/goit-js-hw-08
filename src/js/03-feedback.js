@@ -39,6 +39,6 @@ function initPage() {
   }
 
   Object.entries(savedData).forEach(([name, value]) => {
-    formRef.elemets[name].value = value;
+    formRef.elements[name].value = value;
   });
 }
